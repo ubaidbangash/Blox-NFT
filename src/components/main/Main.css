@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Chalkduster";
+  src: url(../../assets/Chalkduster.woff);
+}
+
+/* .banner {
+  height: calc(100vh - 80px);
+
+  background: url("../../assets/1a. Misfits Banner.svg") fixed 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* transform: translateY(-30%);
+  background-position-y: 300px;
+}
+  */
+
+.intro {
+  height: calc(100vh - 80px);
+
+  background: url("../../assets/3a. Introducing Misfits.svg") fixed 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* transform: translateY(-30%);
+  background-position-y: 300px; */
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+.col-1 {
+  width: 50%;
+}
+.col-2 {
+}
+.col-1 img {
+  width: 50%;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btn-d {
+  background-color: aqua;
+}
+
+.btn-d p {
+  padding: 0;
+  margin: 0;
+}
+.btn-t p {
+  padding: 0%;
+  margin: 0%;
+}
+.btn-t {
+  background-color: brown;
+}
+.col-2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.paragrapg h2,
+p {
+  font-family: "Chalkduster";
+}
+.light {
+}
+.adventure {
+  height: calc(100vh - 80px);
+
+  background: url("../../assets/5a. The Adventure.svg") fixed 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* transform: translateY(-30%);
+  background-position-y: 300px; */
+}
+.road {
+  margin-top: 1rem;
+}
+.lore {
+  height: calc(100vh - 80px);
+
+  background: url("../../assets/7a. The LORE.svg") fixed 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.misfits {
+  margin-top: 1rem;
+}
+.misfits img {
+  width: -webkit-fill-available;
+}
+.misfit-b {
+  height: calc(100vh - 80px);
+
+  background: url("../../assets/7c. Misfits Background.svg") fixed 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.plan {
+  margin-top: 1rem;
+}
+.team {
+  position: relative;
+}
+.team .btn1 {
+  background-image: url(../../assets/1.PNG);
+  position: absolute;
+  top: 85.5%;
+  left: 17.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 16px;
+  padding: 60px 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background: border-box;
+}
+.team .btn2 {
+  background-image: url(../../assets/1.PNG);
+  position: absolute;
+  top: 85.5%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 16px;
+  padding: 60px 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background: border-box;
+}
+.team .btn3 {
+  background-image: url(../../assets/1.PNG);
+  position: absolute;
+  top: 85.5%;
+  left: 82.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 16px;
+  padding: 60px 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background: border-box;
+}
+@media only screen and (max-width: 1024px) {
+  .intro {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .adventure {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .lore {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .misfit-b {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .col-1 img {
+    width: 110%;
+  }
+
+  .intro {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .adventure {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .lore {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .misfit-b {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .team .btn1 {
+    padding: 12px 30px;
+  }
+  .team .btn2 {
+    padding: 12px 30px;
+  }
+  .team .btn3 {
+    padding: 12px 30px;
+  }
+  .col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-1 img {
+    width: 178%;
+    padding-bottom: 1rem;
+  }
+  .intro {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .adventure {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .lore {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+  .misfit-b {
+    height: 20vh;
+    margin: 0;
+    padding: 0%;
+  }
+}
